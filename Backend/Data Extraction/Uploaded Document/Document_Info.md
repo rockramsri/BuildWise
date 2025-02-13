@@ -1,0 +1,1 @@
+The documents can be any format , csv, pdfs or ven images realted to construction 
