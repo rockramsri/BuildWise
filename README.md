@@ -66,27 +66,20 @@ An AI-driven, RAG-based conversational assistant designed to optimize document p
 
 🛠️ Tech Stack
 
-Component	Tech Used
-Frontend	React.js ⚛️
-Backend API	FastAPI 🚀
-Database	Pinecone & VectorDB 🔍
-LLMs	OpenAI/GPT & Custom Sentence Embeddings 🧠
-Data Processing	Python 🐍, Pandas, NumPy
-Visualization	Matplotlib, Plotly 📊
-Storage & Logs	JSON, CSV, Pinecone
+<img width="375" alt="image" src="https://github.com/user-attachments/assets/7bbd8d36-f44d-4305-812b-df33a0fc4e98" />
+
 
 📸 Screenshots & Demo
 
-📌 GitHub Repo
-🎥 Demo Video
-📑 Presentation Slides
+🎥 Demo Video 
+📑 Presentation Slides https://docs.google.com/presentation/d/1I3ZEpiBcTtXK0AsyRkMTCxSGAX7xXHCNHcf5aUEr9qY/edit?usp=sharing
 
 🚀 How to Run the Project
 
 1️⃣ Clone the Repository
 
 ```markdown
-git clone https://your-github-repo-link.com
+git clone https://github.com/rockramsri/BuildWise.git
 cd BuildWise
 ```
 
