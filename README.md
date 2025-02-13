@@ -1,4 +1,4 @@
-🏗️ BuildWise – AI-Powered Conversational Assistant for Construction Tech
+# 🏗️ **BuildWise – AI-Powered Conversational Assistant for Construction Tech**
 
 🚀 Finalist at ConTech 2025!
 An AI-driven, RAG-based conversational assistant designed to optimize document processing, enhance legal compliance, and streamline construction management.
@@ -66,7 +66,15 @@ An AI-driven, RAG-based conversational assistant designed to optimize document p
 
 🛠️ Tech Stack
 
-<img width="375" alt="image" src="https://github.com/user-attachments/assets/7bbd8d36-f44d-4305-812b-df33a0fc4e98" />
+| Component       | Tech Used                     |
+|----------------|------------------------------|
+| **Frontend**   | React.js ⚛️                  |
+| **Backend API**| FastAPI 🚀                   |
+| **Database**   | Pinecone & VectorDB 🔍       |
+| **LLMs**       | OpenAI/GPT & Sentence Embeddings 🧠 |
+| **Data Processing** | Python 🐍, Pandas, NumPy |
+| **Visualization** | Matplotlib, Plotly 📊     |
+| **Storage & Logs** | JSON, CSV, Pinecone      |
 
 
 📸 Screenshots & Demo
