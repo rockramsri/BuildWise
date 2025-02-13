@@ -28,6 +28,7 @@ An AI-driven, RAG-based conversational assistant designed to optimize document p
 
 📁 Project Structure
 
+```markdown
 📦 BuildWise  
 │── Backend  
 │   ├── API Setup  
@@ -40,8 +41,6 @@ An AI-driven, RAG-based conversational assistant designed to optimize document p
 │   │   │   ├── google_search_results.json  # Web-scraped data for legal compliance  
 │   │   │   ├── links.csv  # List of extracted URLs for dynamic legal research  
 │   │   ├── Uploaded
-
-```markdown
 │   │   │   ├── analyse_Data.py  # Handles uploaded PDFs for text/image extraction  
 │   │   │   ├── dynamic_data_extraction.py  # Automates extraction & stores in Pinecone  
 │   │   │   ├── scrape_Web.py  # Web scraping for real-time legal updates  
@@ -61,7 +60,9 @@ An AI-driven, RAG-based conversational assistant designed to optimize document p
 │   │   │   📌 **Context Enhancement** to improve AI-generated responses  
 │   │  
 │── Frontend  
-│   ├── (React.js UI with interactive dashboard & chatbot)  
+│   ├── (React.js UI with interactive dashboard & chatbot)
+
+```
 
 🛠️ Tech Stack
 
@@ -84,31 +85,35 @@ Storage & Logs	JSON, CSV, Pinecone
 
 1️⃣ Clone the Repository
 
+```markdown
 git clone https://your-github-repo-link.com
 cd BuildWise
+```
 
 2️⃣ Install Dependencies
-
+```markdown
 pip install -r requirements.txt
+```
 
 3️⃣ Set Up Environment Variables
 
 Create a .env file and add:
-
+```markdown
 OPENAI_API_KEY=your_openai_key
 PINECONE_API_KEY=your_pinecone_key
 DATABASE_URI=your_database_url
+```
 
 4️⃣ Run the Backend API
-
+```markdown
 uvicorn Backend.API_Setup.main:app --reload
-
+```
 5️⃣ Start the Frontend
-
+```markdown
 cd Frontend
 npm install
 npm start
-
+```
 📌 Future Improvements
 
 ✔️ Enhance RAG model for better retrieval accuracy
